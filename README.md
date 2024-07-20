@@ -3,7 +3,9 @@ Unofficial integration for Chronicle SOAR/Google SecOps to integrate with data t
 
 
 ## Available Actions
-| SOAR Action  | Description |
+| SOAR Action | Description |
 | ------------- | ------------- |
-| Get Data Table as JSON  | Returns a JSON object with the full data table. Useful for processing in later actions  |
-| Find Matching Row(s)  | Search a column for any matching rows. Seach operators include: `equals`,`contains`  |
+| Get Data Table as JSON | Returns a JSON object with the full data table. Useful for processing in later actions  |
+| Find Matching Row(s) | Search a column for any matching rows. Seach operators include: `equals`,`contains`  |
+| Add Row to Table | Insert a list (comma-separated) as a row to a table |
+| Delete Row from Table | Given a row ID, delete it from the data table |
