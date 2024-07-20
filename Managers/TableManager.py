@@ -15,7 +15,7 @@ class secops():
 
         # First we'll retrieve the columns
         API_BASE = "https://" + REGION + "-chronicle.googleapis.com"
-        PARENT = "/v1alpha/projects/" + PROJECT_ID + "/locations/us/instances/" + SECOPS_ID
+        PARENT = "/v1alpha/projects/" + PROJECT_ID + "/locations/" + REGION + "/instances/" + SECOPS_ID
         URL = API_BASE + PARENT + "/dataTables/" + TABLE_NAME
         credentials = service_account.Credentials.from_service_account_info(
             CREDS, scopes=["https://www.googleapis.com/auth/cloud-platform"]
