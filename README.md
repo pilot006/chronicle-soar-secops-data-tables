@@ -1,5 +1,5 @@
 # Unofficial Data Tables Integration for Google SecOps/Chronicle SOAR
-Unofficial integration for Chronicle SOAR/Google SecOps to integrate with data tables/reference lists v2. These lists enable substantially more rows and mutli-columns.
+Unofficial integration for Chronicle SOAR/Google SecOps to integrate with data tables/reference lists v2. These lists enable substantially more rows and multi-columns.
 
 
 ## Available Actions
